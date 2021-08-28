@@ -1,0 +1,105 @@
+
+.commonButton {
+    @extend .body-14-dark !optional;
+    text-align: center;
+    border-radius: 4px;
+  }
+  
+  .commonButton.btn:focus,
+  .commonButton.btn:active {
+    box-shadow: none!important;
+  }
+  
+  
+  .commonButton.btn-lg {
+    padding: 10px 30px;
+  }
+  
+  .commonButton.btn-md {
+    padding: 8px 27px;
+  }
+  
+  .commonButton.btn-sm {
+    padding: 5px 15px;
+  }
+  
+  
+  //primary
+  .commonButton.btn-primary {
+    border: 1.5px solid #113FF4;
+    background-color: #113FF4 !important;
+    color: #ffffff !important;
+  
+    &:hover{
+      background-color: #00237A !important;
+        color: #ffffff !important;
+    }
+  
+    &:active{
+      background-color: #002DBC !important;
+      color: #ffffff !important;
+    }
+  
+    &:disabled{
+      background-color: #A0A0A0 !important;
+      opacity: 0.9; 
+    }
+  }
+  
+  // secondary
+  .commonButton.btn-secondary {
+    background-color: transparent !important;
+    border: 1.5px solid #181818;
+    
+    &:hover{
+      border: 1.5px solid #113FF4 !important;
+        color: #113FF4 !important;
+    }
+  
+    &:active{
+      border: 1.5px solid #00237A !important;
+      color: #113FF4 !important;
+    }
+  
+    &:disabled{
+      border: 1.5px solid #A0A0A0 !important;
+      color: #C0C0C0 !important;
+    }
+  }
+  
+  // text button
+  .commonButton.btn-link{
+    color: #181818;
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: 0;
+  
+    &:hover{
+      background-color: #e9effd;
+      color: #113FF4;
+    }
+    &:active{
+      background-color: #D4DFFC;
+      color: #113FF4;
+    }
+    &:disabled{
+      // current req matches with bootsrtap
+    }
+  }
+  
+  .commonButton.btn-danger{
+    background-color: #ED0028 !important;
+    color: #FFFFFF;
+    border: transparent;
+  
+    &:hover{
+      background-color: #AA0025 !important;
+    }
+    &:active{
+      background-color: #DD0025 !important;
+    }
+    &:disabled{
+      // current req matches with bootsrtap
+    }
+  }
+  

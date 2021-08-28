@@ -1,0 +1,11 @@
+.confirm-box{
+  .modal-body{
+    min-height: 50px;
+  }
+  .modal-footer{
+    padding-top: 2rem !important;
+    .btn{
+      float: right;
+    }
+  }
+}

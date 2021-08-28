@@ -1,0 +1,19 @@
+.jumbotron{
+    width: 50% !important;
+    position: relative;
+    left: 21rem;
+    top: 20px;
+
+    .head-name{
+        text-align: center;
+    }
+    .card{
+        .card-body{
+            .commonButton {
+                position: relative;
+                top: 12px;
+                left: 17rem;
+            }
+        }
+    }
+}

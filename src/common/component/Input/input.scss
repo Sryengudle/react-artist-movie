@@ -1,0 +1,39 @@
+.inputField{
+    select.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="%23014384d9" d="M16.003 18.626l7.081-7.081L25 13.46l-8.997 8.998-9.003-9 1.917-1.916z"/></svg>');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position-x: 99%;
+    background-position-y: center;
+    
+    border: 1px solid #9B9B9B !important;
+    font-size: 1.6rem !important;
+    padding: 0 2rem !important;
+    height: 40px !important;
+    border-radius: 0 !important;
+    &.form-control-sm {
+      height: 37px !important;
+    }
+  }
+  
+  input.form-control {
+    height: 40px !important;
+  }
+
+}
+
+.inline-input .inputField{
+  display: flex;
+  align-items: center;
+  .label{
+    margin-right: 15px;
+  }
+}
+
+.input-hint {
+  color: gray;
+}
+
